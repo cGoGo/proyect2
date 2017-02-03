@@ -1,0 +1,11 @@
+/*FONTS*/
+@font-face {
+	font-family: gabriola;
+	src: url(../fonts/gabriola.otf),
+		url(../fonts/gabriola.ttf);
+}
+@font-face {
+	font-family: segoe-print;
+	src: url(../fonts/segoeprint.otf),
+		url(../fonts/segoeprint.ttf);
+}
