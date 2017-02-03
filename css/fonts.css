@@ -5,7 +5,7 @@
 		url(../fonts/gabriola.ttf);
 }
 @font-face {
-	font-family: segoe-print;
+	font-family: segoeprint;
 	src: url(../fonts/segoeprint.otf),
 		url(../fonts/segoeprint.ttf);
 }
