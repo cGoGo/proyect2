@@ -10,4 +10,8 @@ $rose: #B66F77;
 //Fuchsia
 $fuchsia: #D13751;
 //White
-$white: #E1DDDE;
+$white: #FAFAFA;
+
+//Media queries
+$small: "(max-width : 600px)";
+$medium: "(min-width : 601px) and (max-width : 991px)";

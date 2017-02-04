@@ -1,0 +1,21 @@
+.welcome-text {
+	@include p ($fuchsia);
+}
+.container-blanket {
+	@include bg();
+	.opacity {
+		background-color: rgba(0, 0, 0, 0.2);
+		.blanket {
+			padding: 10% 0;
+		}
+		.text-blanket {
+			h3 {
+				color: $white;
+				padding-top: 6%; 
+			}
+			p {
+				@include p ($white);
+			}
+		}
+	}
+}

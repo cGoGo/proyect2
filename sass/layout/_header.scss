@@ -1,0 +1,25 @@
+.bg-header {
+	@include bg();
+	.opacity {
+		background-color: rgba(0, 0, 0, 0.1);
+		.navbar {
+			margin-bottom: 0;
+			nav {
+				background-color: $green;
+				color: $white;
+				font-family: 'Lato', sans-serif;
+				.fa {
+					font-size: 1.8rem;
+				}
+			}
+		}
+		.logo {
+			width: 100%;
+			padding: 5% 30%;
+			span {
+				font-size: 2em;
+				color: white;
+			}
+		}
+	}
+}

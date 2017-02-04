@@ -1,0 +1,15 @@
+@media #{$medium} {
+	//Header
+	.bg-header .opacity .logo {
+		padding: 5% 25%;
+	}
+}
+@media #{$small} {
+	//Header
+	.bg-header .opacity .logo {
+		padding: 5% 20%;
+		span {
+			font-size: 1.2em;
+		}
+	}
+}

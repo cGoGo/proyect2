@@ -1,0 +1,14 @@
+//Background Image
+@mixin bg (){
+	background-image: url("../img/bg-granny-circle.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+//Paragraph
+@mixin p($color){
+	font-size: 1.2em;
+	font-family: 'Lato', sans-serif;
+	padding: 5% 0;
+	color: $color;
+}

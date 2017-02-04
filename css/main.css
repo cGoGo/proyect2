@@ -1,3 +1,66 @@
+h3 {
+  font-family: gabriola, sans-serif; }
 
+.row {
+  margin-bottom: 0 !important; }
+
+.bg-white {
+  background: #FAFAFA; }
+
+.bg-green {
+  background: #A1A618; }
+
+.bg-header {
+  background-image: url("../img/bg-granny-circle.jpg");
+  background-size: cover;
+  background-position: center; }
+  .bg-header .opacity {
+    background-color: rgba(0, 0, 0, 0.1); }
+    .bg-header .opacity .navbar {
+      margin-bottom: 0; }
+      .bg-header .opacity .navbar nav {
+        background-color: #A1A618;
+        color: #FAFAFA;
+        font-family: 'Lato', sans-serif; }
+        .bg-header .opacity .navbar nav .fa {
+          font-size: 1.8rem; }
+    .bg-header .opacity .logo {
+      width: 100%;
+      padding: 5% 30%; }
+      .bg-header .opacity .logo span {
+        font-size: 2em;
+        color: white; }
+
+.welcome-text {
+  font-size: 1.2em;
+  font-family: 'Lato', sans-serif;
+  padding: 5% 0;
+  color: #D13751; }
+
+.container-blanket {
+  background-image: url("../img/bg-granny-circle.jpg");
+  background-size: cover;
+  background-position: center; }
+  .container-blanket .opacity {
+    background-color: rgba(0, 0, 0, 0.2); }
+    .container-blanket .opacity .blanket {
+      padding: 10% 0; }
+    .container-blanket .opacity .text-blanket h3 {
+      color: #FAFAFA;
+      padding-top: 6%; }
+    .container-blanket .opacity .text-blanket p {
+      font-size: 1.2em;
+      font-family: 'Lato', sans-serif;
+      padding: 5% 0;
+      color: #FAFAFA; }
+
+@media (min-width: 601px) and (max-width: 991px) {
+  .bg-header .opacity .logo {
+    padding: 5% 25%; } }
+@media (max-width: 600px) {
+  .bg-header .opacity .logo {
+    padding: 5% 20%; }
+    .bg-header .opacity .logo span {
+      font-size: 1.2em; } }
 
 /*# sourceMappingURL=main.css.map */
